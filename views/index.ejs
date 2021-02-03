@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shortur: The Free Url Shortener</title>
+  </head>
+  <body>
+      <div class="container">
+          <h1>
+              Shortur: The URL Shortener
+          </h1>
+
+          <input type="url" name="full-url" id="full-url" class="full-url-input">
+
+          <button class="btn" type="submit">Short it</button>
+
+          <table class="table url">
+              <thead>
+                  <tr>
+                      <th>Full URL</th>
+                      <th>Shorten URL</th>
+                      <th>No. Of Clicks</th>
+                  </tr>
+
+              </thead>
+              <tbody>
+                  <% shortUrls.forEach(shorturl =>{
+                      <tr>
+                      <td><a href="<%= shortUrl.full%>"><%= shortUrl.full%></a>
+                      </td>
+                      <td><a href="<%= shortUrl.short%>"><%= shortUrl.short%></a></td>
+                      <td><%= shortUrl.clicks%></td>
+                      </tr>
+
+                  }) %> 
+              </tbody>
+          </table>
+      </div>
+  </body>
+</html>

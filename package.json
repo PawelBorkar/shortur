@@ -1,0 +1,28 @@
+{
+  "name": "shortur-l",
+  "version": "1.0.0",
+  "description": "This is a simple url shortener used to short the lengthy messy urls into simple, short and easy to copy, read and share urls. ",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shortur "
+  },
+  "keywords": [
+    "url-shortener"
+  ],
+  "author": "Pawel Borkar",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "run": "^1.4.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
