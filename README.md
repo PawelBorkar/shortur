@@ -1,4 +1,4 @@
-## ShorUr
+## ShortUr
 
-ShortUr is an Url Shortener built to short and simplify the long, messy urls available on the internet in order to share them with your friends ,family,community and peers or followers.
+ShortUr is a Url Shortener built to short and simplify the long, messy URLs available on the internet,making them easier copy & share with your friends ,family,communities and peers or followers.
 
