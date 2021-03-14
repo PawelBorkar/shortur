@@ -1,20 +1,28 @@
 {
-  "name": "shortur-l",
+  "name": "shortur",
   "version": "1.0.0",
   "description": "This is a simple url shortener used to short the lengthy messy urls into simple, short and easy to copy, read and share urls. ",
   "main": "index.js",
+  "license": "AGPL-3.0",
+  "author":"Pawel Borkar" ,  //(https://github.com/PawelBorkar),
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "repository": {
+ "repository": {
     "type": "git",
-    "url": "shortur "
+    "url": "https://github.com/PawelBorkar/shortur "
   },
   "keywords": [
-    "url-shortener"
+    "url-shortener",
+    "url",
+    "shortur",
+    "short",
+    "short url",
+    "open source url shortener",
+    "pawel borkar",
+    "free"
   ],
-  "author": "Pawel Borkar",
-  "license": "MIT",
+  
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
